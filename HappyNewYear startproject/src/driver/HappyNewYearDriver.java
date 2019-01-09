@@ -6,7 +6,7 @@ public class HappyNewYearDriver {
 
     public static void main(String[] args) {
 
-        System.out.println("Happy new year from: <naam>, <studentnummer>, <klas>");
+        System.out.println("Happy new year from: Martijn, 561674, IS104");
 
         /* TODO stap 1: haal commentaar weg
         ArrayList<Vuurwerk> pakket = new ArrayList<Vuurwerk>();

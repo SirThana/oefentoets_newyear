@@ -2,9 +2,9 @@ package models;
 
 public class Instructie {
 
-    boolean nederlandstalig;
-    int minimumLeeftijd;
-    String omschrijving;
+    private boolean nederlandstalig;
+    private int minimumLeeftijd;
+    private String omschrijving;
 
     Instructie(boolean nederlandstalig, int minimumLeeftijd, String omschrijving) {
         this.nederlandstalig = nederlandstalig;
