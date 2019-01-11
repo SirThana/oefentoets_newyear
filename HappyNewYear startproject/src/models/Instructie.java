@@ -35,10 +35,6 @@ public class Instructie {
         return nederlandstalig;
     }
 
-    public int getLeeftijd() {
-        return minimumLeeftijd;
-    }
-
     public String getOmschrijving() {
         return omschrijving;
     }
