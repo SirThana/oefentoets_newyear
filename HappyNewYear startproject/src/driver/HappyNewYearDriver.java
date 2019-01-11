@@ -8,22 +8,21 @@ public class HappyNewYearDriver {
 
         System.out.println("Happy new year from: Martijn, 561674, IS104");
 
+//        Vuurwerk s = new Vuurwerk("Thunderking",5,new Instructie(false,12,
+//                "Goeie omschrijving"));
+//        System.out.println(s.toString());
 
         ArrayList<Vuurwerk> pakket = new ArrayList<Vuurwerk>();
         stap1(pakket);
 
-
-
-        Vuurwerk s = new Vuurwerk("Thunderking",5,new Instructie(false,12,
-                "Goeie omschrijving"));
-        System.out.println(s.toString());
-
         stap2(pakket);
 
+//        stap3(pakket);
 
-        /* TODO stap 3: haal commentaar weg
-        stap3(pakket);
-        einde TODO stap 3 */
+//        Vuurpijl s = new Vuurpijl("Thunderking",5,new Instructie(true,17,
+//                "Grote vuurpijl"),20,new int[]{50,25,25});
+//        System.out.println(s.isLegaal() + "This is FINALE");
+//
 
         /* TODO stap 4: haal commentaar weg
         stap4(pakket);
@@ -90,36 +89,34 @@ public class HappyNewYearDriver {
         System.out.println(knaller);
     }
 
-    /* TODO stap 3: haal commentaar weg
-    private static void stap3(ArrayList<Vuurwerk> pakket) {
-        System.out.println("\n--- STAP 3 ---");
-
-        Vuurpijl vuurpijl;
-
-        // vuurpijl met Nederlandstalige instructie, correcte kleurverhouding, leeftijd 10
-        vuurpijl = new Vuurpijl("Cruise Rocket", 2.50, 40, new int[]{50, 25, 25},
-                new Instructie(true, 10, "Niet in de hand houden"));
-        pakket.add(vuurpijl);
-        System.out.println(vuurpijl);
-
-        // vuurpijl met Nederlandstalige instructie, incorrecte kleurverhouding, leeftijd 16
-        vuurpijl = new Vuurpijl("Killing Arrow", 4.25, 40, new int[]{25, 30, 44},
-                new Instructie(true, 16, "Niet in de hand houden"));
-        pakket.add(vuurpijl);
-        System.out.println(vuurpijl);
-
-        // vuurpijl met Engelstalige instructie, incorrecte kleurverhouding, leeftijd 20
-        vuurpijl = new Vuurpijl("Magic Sky", 2.75, 40, new int[]{50, 41, 10},
-                new Instructie(false, 20, "Keep minimum 10 ft distance"));
-        pakket.add(vuurpijl);
-        System.out.println(vuurpijl);
-
-        // vuurpijl zonder instructie, correcte kleurverhouding
-        vuurpijl = new Vuurpijl("Golden Sky", 3.25, 40, new int[]{50, 50, 0}, null);
-        pakket.add(vuurpijl);
-        System.out.println(vuurpijl);
-    }
-    einde TODO stap 3 */
+//    private static void stap3(ArrayList<Vuurwerk> pakket) {
+//        System.out.println("\n--- STAP 3 ---");
+//
+//        Vuurpijl vuurpijl;
+//
+//        // vuurpijl met Nederlandstalige instructie, correcte kleurverhouding, leeftijd 10
+//        vuurpijl = new Vuurpijl("Cruise Rocket", 2.50, 40, new int[]{50, 25, 25},
+//                new Instructie(true, 10, "Niet in de hand houden"));
+//        pakket.add(vuurpijl);
+//        System.out.println(vuurpijl);
+//
+//        // vuurpijl met Nederlandstalige instructie, incorrecte kleurverhouding, leeftijd 16
+//        vuurpijl = new Vuurpijl("Killing Arrow", 4.25, 40, new int[]{25, 30, 44},
+//                new Instructie(true, 16, "Niet in de hand houden"));
+//        pakket.add(vuurpijl);
+//        System.out.println(vuurpijl);
+//
+//        // vuurpijl met Engelstalige instructie, incorrecte kleurverhouding, leeftijd 20
+//        vuurpijl = new Vuurpijl("Magic Sky", 2.75, 40, new int[]{50, 41, 10},
+//                new Instructie(false, 20, "Keep minimum 10 ft distance"));
+//        pakket.add(vuurpijl);
+//        System.out.println(vuurpijl);
+//
+//        // vuurpijl zonder instructie, correcte kleurverhouding
+//        vuurpijl = new Vuurpijl("Golden Sky", 3.25, 40, new int[]{50, 50, 0}, null);
+//        pakket.add(vuurpijl);
+//        System.out.println(vuurpijl);
+//    }
 
     /* TODO stap 4: haal commentaar weg
     public static void stap4(ArrayList<Vuurwerk> pakket) {

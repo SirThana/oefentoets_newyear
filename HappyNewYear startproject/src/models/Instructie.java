@@ -27,6 +27,9 @@ public class Instructie {
     }
 
 
+    public int getMinimumLeeftijd() {
+        return minimumLeeftijd;
+    }
 
     public boolean isNederlandstalig() {
         return nederlandstalig;
