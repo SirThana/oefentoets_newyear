@@ -1,6 +1,6 @@
 package models;
 
-public class Product {
+abstract class Product {
     /**
      * Symbool voor Euro-teken
      */
@@ -9,9 +9,21 @@ public class Product {
     protected String naam;
     protected double prijs;
 
+
+    public Product(String naam,double prijs){
+        this.naam = naam;
+        this.prijs = prijs;
+    }
+
+
+    public abstract boolean isLegaal(boolean Legaal);
+
     @Override
     public String toString() {
         return "Naam: " + naam + "\n"
                 + "  Prijs: " + EURO + String.format("%.2f", prijs);
     }
+
+
+
 }

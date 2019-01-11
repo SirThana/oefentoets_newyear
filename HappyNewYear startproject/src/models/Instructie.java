@@ -1,22 +1,38 @@
 package models;
 
-public class Instructie {
 
+/**
+ * @author Martijn Zijl
+ * Deze class maakt de isntructies aan van meerdere andere classes
+ */
+
+public class Instructie {
+    /**
+     * Dit zijn de attributen van class instructie
+     */
     private boolean nederlandstalig;
     private int minimumLeeftijd;
     private String omschrijving;
 
-    Instructie(boolean nederlandstalig, int minimumLeeftijd, String omschrijving) {
+    /**
+     * Dit is de constructor van class instructie
+     * @param nederlandstalig
+     * @param minimumLeeftijd
+     * @param omschrijving
+     */
+    public Instructie(boolean nederlandstalig, int minimumLeeftijd, String omschrijving) {
         this.nederlandstalig = nederlandstalig;
         this.minimumLeeftijd = minimumLeeftijd;
         this.omschrijving = omschrijving;
     }
 
-    boolean isNederlandstalig() {
+
+
+    public boolean isNederlandstalig() {
         return nederlandstalig;
     }
 
-    int getLeeftijd() {
+    public int getLeeftijd() {
         return minimumLeeftijd;
     }
 
