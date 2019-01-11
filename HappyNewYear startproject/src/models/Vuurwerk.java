@@ -14,19 +14,37 @@ public class Vuurwerk extends Product {
     }
 
 
+//    @Override
+//    public boolean isLegaal(){
+//        if(this.instructie == null && instructie.isNederlandstalig() == false){
+//            return false;
+//        }
+//        return true;
+//
+//    }
+
     @Override
-    public boolean isLegaal(boolean Legaal){
-        if(Legaal = true){
-            return true;
-        }
+    public boolean isLegaal(){
+    if(this.instructie == null) {
+    return false;
+    } else if(instructie.isNederlandstalig() == false) {
         return false;
     }
+        return true;
+
+    }
+
+
 
     @Override
     public String toString(){
-        String a = " ";
+
+        String a = "Naam: " + super.getNaam() + " \n" + "Prijs: " + super.getEURO() + super.getPrijs()
+                + "\n " + "Instructies: " + instructie + "\n Legaal: " + this.isLegaal();
         return a;
     }
 
-
+    public Instructie getInstructie() {
+        return instructie;
+    }
 }

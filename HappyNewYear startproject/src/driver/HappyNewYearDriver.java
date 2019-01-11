@@ -8,14 +8,18 @@ public class HappyNewYearDriver {
 
         System.out.println("Happy new year from: Martijn, 561674, IS104");
 
-        /* TODO stap 1: haal commentaar weg
+
         ArrayList<Vuurwerk> pakket = new ArrayList<Vuurwerk>();
         stap1(pakket);
-        einde TODO stap 1 */
 
-        /* TODO stap 2: haal commentaar weg
+
+
+        Vuurwerk s = new Vuurwerk("Thunderking",5,new Instructie(false,12,
+                "Goeie omschrijving"));
+        System.out.println(s.toString());
+
         stap2(pakket);
-        einde TODO stap 2 */
+
 
         /* TODO stap 3: haal commentaar weg
         stap3(pakket);
@@ -34,7 +38,6 @@ public class HappyNewYearDriver {
         einde TODO stap61 */
     }
 
-    /* TODO stap 1: haal commentaar weg
     private static void stap1(ArrayList<Vuurwerk> pakket) {
         System.out.println("\n--- STAP 1 ---");
 
@@ -57,9 +60,7 @@ public class HappyNewYearDriver {
         pakket.add(vuurwerk);
         System.out.println(vuurwerk);
     }
-    einde TODO stap 1 */
 
-    /* TODO stap 2: haal commentaar weg
     private static void stap2(ArrayList<Vuurwerk> pakket) {
         System.out.println("\n--- STAP 2 ---");
 
@@ -88,7 +89,6 @@ public class HappyNewYearDriver {
         pakket.add(knaller);
         System.out.println(knaller);
     }
-    einde TODO stap 2 */
 
     /* TODO stap 3: haal commentaar weg
     private static void stap3(ArrayList<Vuurwerk> pakket) {

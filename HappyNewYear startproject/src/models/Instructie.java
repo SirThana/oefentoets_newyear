@@ -36,6 +36,10 @@ public class Instructie {
         return minimumLeeftijd;
     }
 
+    public String getOmschrijving() {
+        return omschrijving;
+    }
+
     @Override
     public String toString() {
         return "Nederlandstalig=" + nederlandstalig + ", leeftijd=" + minimumLeeftijd + ", omschrijving=" + omschrijving;
