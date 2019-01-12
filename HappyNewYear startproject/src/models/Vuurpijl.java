@@ -30,16 +30,6 @@ public class Vuurpijl extends Vuurwerk{
         return true;
     }
 
-    public void setKleur(int getal){
-        this.kleurverhouding[0] = getal;
-    }
-
-    public int[] getKleurverhouding(){
-        return this.kleurverhouding;
-    }
-
-
-
     public boolean correcteKleurverhouding(int[] kleurverhouding){
         double max = kleurverhouding[0] + kleurverhouding[1] + kleurverhouding[2];
 
@@ -51,7 +41,11 @@ public class Vuurpijl extends Vuurwerk{
     @Override
     public String toString(){
         String a =  "Naam: " + super.naam + "\n Prijs: " + super.prijs + "\n Instructie: " + "\nLegaal: " +
-                this.isLegaal() + "\n Hoogte: " + this.hoogte;
+                this.isLegaal() + "\n Hoogte: " + this.hoogte + " meter" + "\nKleuren: \n" + "ROOD: " + this.kleurverhouding[0]
+                + "%\n" + "GROEN: " + this.kleurverhouding[1] + "%\n" + "BLAUW: " + this.kleurverhouding[2] + "%\n";
+                if(this.kleurverhouding[0] == 100){
+                    a = a + "--> FOUT: Onjuiste kleurverhouding, kleur wordt rood";
+                }
     return a;
     }
 
