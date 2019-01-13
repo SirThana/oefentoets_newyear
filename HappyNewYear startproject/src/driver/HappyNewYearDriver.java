@@ -121,12 +121,10 @@ public class HappyNewYearDriver {
         System.out.println(vuurpijl);
     }
 
-    /* TODO stap 4: haal commentaar weg
     public static void stap4(ArrayList<Vuurwerk> pakket) {
         System.out.println("\n--- STAP 4 ---");
         toonVuurwerk(pakket);
     }
-    einde TODO stap 4 */
 
     /* TODO stap 5: haal commentaar weg
     public static void stap5(ArrayList<Vuurwerk> pakket) {
@@ -144,4 +142,16 @@ public class HappyNewYearDriver {
         printHardeKnallers(pakket, 100);
     }
     einde TODO stap 6 */
+
+    public static void toonVuurwerk(ArrayList<Vuurwerk> pakket){
+
+
+        double totaalPrijs = 0;
+      for (Vuurwerk vuurwerk : pakket) {
+          totaalPrijs = totaalPrijs + vuurwerk.getPrijs();
+          System.out.println(vuurwerk.toString());
+      }
+    }
+
+
 }
