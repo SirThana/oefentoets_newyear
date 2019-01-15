@@ -27,9 +27,7 @@ public class HappyNewYearDriver {
 //        System.out.println(Arrays.toString(s.getKleurverhouding()));
 
 
-        /* TODO stap 4: haal commentaar weg
         stap4(pakket);
-        einde TODO stap 4 */
 
         /* TODO stap 5: haal commentaar weg
         stap5(pakket);
@@ -149,7 +147,7 @@ public class HappyNewYearDriver {
         double totaalPrijs = 0;
       for (Vuurwerk vuurwerk : pakket) {
           totaalPrijs = totaalPrijs + vuurwerk.getPrijs();
-          System.out.println(vuurwerk.toString());
+          System.out.println(vuurwerk.toString() + "Totaal prijs: " + totaalPrijs);
       }
     }
 
