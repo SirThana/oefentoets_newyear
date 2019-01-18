@@ -149,6 +149,10 @@ public class HappyNewYearDriver {
           totaalPrijs = totaalPrijs + vuurwerk.getPrijs();
           System.out.println(vuurwerk.toString() + "Totaal prijs: " + totaalPrijs);
       }
+
+
+
+
     }
 
 
